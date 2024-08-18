@@ -1,0 +1,121 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    background-image: url('texture.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: none;
+    padding: 5px 15px;
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+header .logo {
+    width: 200px; /* Smaller size */
+    height: auto;
+    margin: 0;
+}
+
+.headline-title {
+    font-size: 1.75em; /* Smaller font size */
+    font-family: 'Old English Text MT', serif;
+    color: #333;
+    margin: 0;
+}
+
+.headline-date {
+    font-size: 0.75em;
+    color: #333;
+}
+
+nav {
+    background: none;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Reduced margin */
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em; /* Smaller font size */
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; /* Grid remains the same */
+    gap: 15px; /* Reduced gap */
+    max-width: 1000px; /* Smaller max-width */
+    margin: 20px auto;
+}
+
+.news-item {
+    background: none;
+    border: 1px solid #333;
+    padding: 10px; /* Reduced padding */
+    box-shadow: none;
+}
+
+.main-headline {
+    grid-column: 1 / span 2;
+}
+
+.main-headline img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Smaller margin */
+}
+
+.smallest {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px; /* Reduced padding */
+}
+
+.smallest img.small-img {
+    max-width: 60px; /* Smaller image size */
+    margin-right: 8px; /* Reduced margin */
+    border: 1px solid #5a4634;
+}
+
+h2 {
+    font-size: 1.5em; /* Smaller font size */
+    margin: 8px 0;
+    border-bottom: 1px solid #333;
+}
+
+p {
+    font-size: 1em; /* Smaller font size */
+    line-height: 1.4; /* Reduced line height */
+    margin: 8px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0; /* Reduced padding */
+    background: none;
+    border-top: 2px solid #333;
+    color: #333;
+    font-size: 0.9em;
+}
